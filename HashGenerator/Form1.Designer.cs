@@ -52,7 +52,7 @@
             // SelectFileLbl
             // 
             this.SelectFileLbl.AutoSize = true;
-            this.SelectFileLbl.Location = new System.Drawing.Point(44, 99);
+            this.SelectFileLbl.Location = new System.Drawing.Point(23, 136);
             this.SelectFileLbl.Name = "SelectFileLbl";
             this.SelectFileLbl.Size = new System.Drawing.Size(53, 13);
             this.SelectFileLbl.TabIndex = 0;
@@ -61,7 +61,7 @@
             // FileNameLbl
             // 
             this.FileNameLbl.AutoSize = true;
-            this.FileNameLbl.Location = new System.Drawing.Point(44, 154);
+            this.FileNameLbl.Location = new System.Drawing.Point(23, 173);
             this.FileNameLbl.Name = "FileNameLbl";
             this.FileNameLbl.Size = new System.Drawing.Size(52, 13);
             this.FileNameLbl.TabIndex = 1;
@@ -70,7 +70,7 @@
             // FileSizeLbl
             // 
             this.FileSizeLbl.AutoSize = true;
-            this.FileSizeLbl.Location = new System.Drawing.Point(44, 186);
+            this.FileSizeLbl.Location = new System.Drawing.Point(23, 205);
             this.FileSizeLbl.Name = "FileSizeLbl";
             this.FileSizeLbl.Size = new System.Drawing.Size(44, 13);
             this.FileSizeLbl.TabIndex = 2;
@@ -79,7 +79,7 @@
             // FileHashLbl
             // 
             this.FileHashLbl.AutoSize = true;
-            this.FileHashLbl.Location = new System.Drawing.Point(44, 250);
+            this.FileHashLbl.Location = new System.Drawing.Point(23, 269);
             this.FileHashLbl.Name = "FileHashLbl";
             this.FileHashLbl.Size = new System.Drawing.Size(51, 13);
             this.FileHashLbl.TabIndex = 4;
@@ -88,7 +88,7 @@
             // CheksumTypeLbl
             // 
             this.CheksumTypeLbl.AutoSize = true;
-            this.CheksumTypeLbl.Location = new System.Drawing.Point(44, 218);
+            this.CheksumTypeLbl.Location = new System.Drawing.Point(23, 237);
             this.CheksumTypeLbl.Name = "CheksumTypeLbl";
             this.CheksumTypeLbl.Size = new System.Drawing.Size(74, 13);
             this.CheksumTypeLbl.TabIndex = 3;
@@ -97,7 +97,7 @@
             // ComaperLbl
             // 
             this.ComaperLbl.AutoSize = true;
-            this.ComaperLbl.Location = new System.Drawing.Point(44, 282);
+            this.ComaperLbl.Location = new System.Drawing.Point(23, 301);
             this.ComaperLbl.Name = "ComaperLbl";
             this.ComaperLbl.Size = new System.Drawing.Size(77, 13);
             this.ComaperLbl.TabIndex = 5;
@@ -105,7 +105,7 @@
             // 
             // SelectFileTxt
             // 
-            this.SelectFileTxt.Location = new System.Drawing.Point(137, 96);
+            this.SelectFileTxt.Location = new System.Drawing.Point(116, 133);
             this.SelectFileTxt.Name = "SelectFileTxt";
             this.SelectFileTxt.Size = new System.Drawing.Size(534, 20);
             this.SelectFileTxt.TabIndex = 6;
@@ -113,7 +113,7 @@
             // FileSizeShow
             // 
             this.FileSizeShow.AutoSize = true;
-            this.FileSizeShow.Location = new System.Drawing.Point(134, 186);
+            this.FileSizeShow.Location = new System.Drawing.Point(113, 205);
             this.FileSizeShow.Name = "FileSizeShow";
             this.FileSizeShow.Size = new System.Drawing.Size(44, 13);
             this.FileSizeShow.TabIndex = 8;
@@ -122,7 +122,7 @@
             // FileNameShow
             // 
             this.FileNameShow.AutoSize = true;
-            this.FileNameShow.Location = new System.Drawing.Point(134, 154);
+            this.FileNameShow.Location = new System.Drawing.Point(113, 173);
             this.FileNameShow.Name = "FileNameShow";
             this.FileNameShow.Size = new System.Drawing.Size(52, 13);
             this.FileNameShow.TabIndex = 7;
@@ -131,7 +131,7 @@
             // UseMD5
             // 
             this.UseMD5.Checked = true;
-            this.UseMD5.Location = new System.Drawing.Point(141, 215);
+            this.UseMD5.Location = new System.Drawing.Point(120, 234);
             this.UseMD5.Name = "UseMD5";
             this.UseMD5.Size = new System.Drawing.Size(104, 24);
             this.UseMD5.TabIndex = 9;
@@ -143,7 +143,7 @@
             // UseSha512
             // 
             this.UseSha512.AutoSize = true;
-            this.UseSha512.Location = new System.Drawing.Point(244, 215);
+            this.UseSha512.Location = new System.Drawing.Point(223, 235);
             this.UseSha512.Name = "UseSha512";
             this.UseSha512.Size = new System.Drawing.Size(68, 17);
             this.UseSha512.TabIndex = 10;
@@ -153,14 +153,14 @@
             // 
             // FileHashTxt
             // 
-            this.FileHashTxt.Location = new System.Drawing.Point(137, 242);
+            this.FileHashTxt.Location = new System.Drawing.Point(116, 261);
             this.FileHashTxt.Name = "FileHashTxt";
             this.FileHashTxt.Size = new System.Drawing.Size(534, 20);
             this.FileHashTxt.TabIndex = 11;
             // 
             // ComapreHashTxt
             // 
-            this.ComapreHashTxt.Location = new System.Drawing.Point(137, 276);
+            this.ComapreHashTxt.Location = new System.Drawing.Point(116, 295);
             this.ComapreHashTxt.Name = "ComapreHashTxt";
             this.ComapreHashTxt.Size = new System.Drawing.Size(534, 20);
             this.ComapreHashTxt.TabIndex = 12;
@@ -168,7 +168,7 @@
             // BroweseBtn
             // 
             this.BroweseBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BroweseBtn.Location = new System.Drawing.Point(709, 96);
+            this.BroweseBtn.Location = new System.Drawing.Point(688, 133);
             this.BroweseBtn.Name = "BroweseBtn";
             this.BroweseBtn.Size = new System.Drawing.Size(75, 22);
             this.BroweseBtn.TabIndex = 13;
@@ -179,7 +179,7 @@
             // CompareBtn
             // 
             this.CompareBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.CompareBtn.Location = new System.Drawing.Point(709, 276);
+            this.CompareBtn.Location = new System.Drawing.Point(688, 295);
             this.CompareBtn.Name = "CompareBtn";
             this.CompareBtn.Size = new System.Drawing.Size(75, 22);
             this.CompareBtn.TabIndex = 15;
@@ -190,7 +190,7 @@
             // CopyBtn
             // 
             this.CopyBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.CopyBtn.Location = new System.Drawing.Point(709, 240);
+            this.CopyBtn.Location = new System.Drawing.Point(688, 259);
             this.CopyBtn.Name = "CopyBtn";
             this.CopyBtn.Size = new System.Drawing.Size(75, 22);
             this.CopyBtn.TabIndex = 16;
@@ -203,7 +203,7 @@
             this.OKLbl.AutoSize = true;
             this.OKLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OKLbl.ForeColor = System.Drawing.Color.Lime;
-            this.OKLbl.Location = new System.Drawing.Point(674, 260);
+            this.OKLbl.Location = new System.Drawing.Point(653, 279);
             this.OKLbl.Name = "OKLbl";
             this.OKLbl.Size = new System.Drawing.Size(33, 20);
             this.OKLbl.TabIndex = 17;
@@ -215,7 +215,7 @@
             this.NoLbl.AutoSize = true;
             this.NoLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NoLbl.ForeColor = System.Drawing.Color.Red;
-            this.NoLbl.Location = new System.Drawing.Point(677, 260);
+            this.NoLbl.Location = new System.Drawing.Point(655, 279);
             this.NoLbl.Name = "NoLbl";
             this.NoLbl.Size = new System.Drawing.Size(31, 20);
             this.NoLbl.TabIndex = 18;
@@ -226,8 +226,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(819, 385);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.ClientSize = new System.Drawing.Size(784, 362);
             this.Controls.Add(this.NoLbl);
             this.Controls.Add(this.OKLbl);
             this.Controls.Add(this.CopyBtn);
