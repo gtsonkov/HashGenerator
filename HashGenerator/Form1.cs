@@ -81,7 +81,7 @@ namespace HashGenerator
                 {
                     using (var FileRead = File.OpenRead(browseFiles.FileName))
                     {
-                        var result = SSha512.ComputeHash(Encoding.UTF8.GetBytes(FileRead.ToString()));
+                        var result = SSha512.ComputeHash(FileRead);
                         string cryptStringMd5 = BitConverter.ToString(result).Replace("-", "").ToUpperInvariant();
                         return cryptStringMd5;
                     }
